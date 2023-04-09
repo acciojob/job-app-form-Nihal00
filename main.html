@@ -11,31 +11,34 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<label for="name"> Name 
-		<input type="text" id="name" required >
+		<input type="text" id="name" required name="name">
 	</label>
 	<label for="email"> Email
-		<input type="email" id="email" required>
+		<input type="email" id="email" required name="email">
 	</label>
 	<label for="gender"> Gender
-		<input type="radio" id="gender" required>
+		<input type="radio" id="gender" required name="gender">
 	</label>
 	<label for="laptop"> Laptop Brands
-		<select id="laptop">
+		<select id="laptop" name="laptop">
 		<option>Apple</option>
 		<option>Asus</option>
 		<option>HP</option>
 		</select>
 	</label>
 	<label for="age"> Age
-		<input type="text" id="age" required>
+		<input type="text" id="age" required name="age">
 	</label>
 	<label for="dob"> Date of Birth
-		<input type="text" id="dob" required>
+		<input type="text" id="dob" required name="dob">
 	</label>
 	<label for="password">
-		<input type="password" id="password" required>
+		<input type="password" id="password" required name="password">
 	</label>
-	<input type="submit">
+	<label for="portfolio">
+		<input id="portfolio" name="portfolio" type="url">
+	</label>
+	<input type="submit" name="Submit">
 </body>
 
 </html>
